@@ -1,7 +1,7 @@
 from pypresence import Presence  # The simple rich presence client in pypresence
 import time
 
-RPC = Presence(739528267039768647)
+RPC = Presence(838237077602566166)
 RPC.connect()
 start_time = int(time.time())
 while True:
