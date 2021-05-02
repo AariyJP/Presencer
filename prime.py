@@ -1,9 +1,9 @@
 from pypresence import Presence  # The simple rich presence client in pypresence
 import time
 
-YOUTUBE = Presence(739528267039768647)
-YOUTUBE.connect()
+PRIME = Presence(838237077602566166)
+PRIME.connect()
 start_time = int(time.time())
 while True:
-    YOUTUBE.update(start=start_time, large_image="youtube", join="abc")  # YouTube
+    PRIME.update(start=start_time, large_image="prime_video", join="abc")  # Prime Video
     time.sleep(60)
