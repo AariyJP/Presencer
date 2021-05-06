@@ -1,7 +1,7 @@
 from pypresence import Presence
 import time
 
-MC = Presence(833349474213691404)
+MC = Presence(833349474213691404)  # Official App Id 356875570916753438
 MC.connect()
 start_time = int(time.time())
 while True:
