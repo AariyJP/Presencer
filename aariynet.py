@@ -1,7 +1,7 @@
 from pypresence import Presence
 import time
 
-AARIYNET = Presence(740833703277887491)  # Official App Id 356875570916753438
+AARIYNET = Presence(740833703277887491)
 AARIYNET.connect()
 start_time = int(time.time())
 while True:
